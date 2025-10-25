@@ -1,18 +1,16 @@
-/* mulish-300 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 300;
-  src: url('../fonts/mulish-v18-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/mulish-v18-latin-300.woff2') format('woff2');
 }
-/* mulish-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/mulish-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/mulish-v18-latin-regular.woff2') format('woff2');
 }
 *{
     box-sizing: border-box;
@@ -24,28 +22,26 @@
 body{
     font-family: Mulish;
     background: #210A01;
-
-    
 }
 .container{
     width: 100%;
     max-width: 85%;
     margin: 0 auto;
-
 }
-.header__card1{
-    width: 367px;
-height: 260px;
-border-radius: 30px;
-display: flex;
-flex-direction: column;
-gap: 48px;
- background-image: url('../assets//Rectangle\ 10.png');
+.header__card1 {
+  width: 367px;
+  height: 260px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  padding: 0px 20px;
+  background-image: url('../assets/Rectangle 10.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-position: center;
-  background-attachment: fixed;
-  
+  background-attachment: scroll;
 }
 .header__card2 {
   width: 367px;
@@ -54,24 +50,176 @@ gap: 48px;
   display: flex;
   flex-direction: column;
   gap: 48px;
-
+  justify-content: center;
+  padding: 0px 20px;
   background-image: url('../assets/Rectangle 11.png');
   background-repeat: no-repeat;
-  background-size: 100% auto; 
+  background-size: 100% auto;
   background-position: center;
   background-attachment: scroll;
 }
-
 .header__btn{
     width: 204px;
-height: 38px;
-border-radius: 32px;
-border: none;
-background: linear-gradient(#FF5D29,#FE9C1C);
-color: #fff;
-
+    height: 38px;
+    border-radius: 32px;
+    border: none;
+    background: linear-gradient(#FF5D29,#FE9C1C);
+    color: #fff;
 }
 .header__h1{
     color: #fff;
     width: 171px;
+}
+.header__wrapper{
+    display: flex;
+    gap: 24px;
+    margin: 50px 0px;
+}
+.header__p{
+    width: 380px;
+    color: white;
+    opacity: 0.5;
+}
+.header_h1{
+    color: white;
+    font-size: 69.0012;
+    margin: 0px 150px;
+}
+.header__text{
+    width: 427px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px 0px;
+}
+.main__card1{
+    width: 610px;
+    height: 260px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    padding: 0px 20px;
+    background-image: url('../assets/alex-haney-CAhjZmVk5H4-unsplash\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: scroll;
+}
+.main__card2{
+    width: 610px;
+    height: 260px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    padding: 0px 20px;
+    background-image: url('../assets/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: scroll;
+}
+.main_wrapper{
+    display: flex;
+    gap: 24px;
+}
+.main__h1{
+    width: 205px;
+    color: #fff;
+}
+.main2__card1{
+      width: 401px;
+  height: 260px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  padding: 0px 20px;
+  background-image: url('../assets/Rectangle\ 10\ \(1\).png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  background-attachment: scroll;
+}
+.main2__card2{
+      width: 401px;
+  height: 260px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  padding: 0px 20px;
+  background-image: url('../assets/Rectangle\ 11\ \(1\).png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  background-attachment: scroll;
+}
+.main2__card3{
+      width: 401px;
+  height: 260px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  padding: 0px 20px;
+  background-image: url('../assets/Rectangle\ 12.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  background-attachment: scroll;
+}
+.main2_wrapper{
+    display: flex;
+    gap: 20px;
+    padding: 24px 0px;
+}
+@media (max-width: 430px) {
+  .header__wrapper,
+  .main_wrapper,
+  .main2_wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .header__card1,
+  .header__card2,
+  .main__card1,
+  .main__card2,
+  .main2__card1,
+  .main2__card2,
+  .main2__card3 {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+  }
+  .header__text {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .header_h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  .header__h1,
+  .main__h1 {
+    font-size: 18px;
+  }
+  .header__btn {
+    width: 150px;
+    height: 34px;
+    font-size: 14px;
+    align-self: center;
+  }
+  .header__p {
+    width: 100%;
+    font-size: 14px;
+  }
 }
