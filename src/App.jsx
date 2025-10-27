@@ -1,5 +1,5 @@
 import React from "react";
-import Islom from "./components/islom.jsx"
+import Islom from "./components/Islom.jsx"
 const App = () => {
   return <div>
     <Islom />
