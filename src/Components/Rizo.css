@@ -175,6 +175,46 @@ body{
   background-position: center;
   background-attachment: scroll;
 }
+.sticker {
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+  transition: transform 0.3s ease;
+}
+
+.sticker:hover {
+  transform: scale(1.1);
+}
+.header__card1 {
+  position: relative;
+}
+.sticker-egg {
+  top: -70px;
+  left: -70px;
+  width: 180px;
+  height: auto;
+}
+
+.main__card2 {
+  position: relative;
+}
+.sticker-burrito {
+  top: 20px;
+  right: -80px;
+  width: 200px; 
+  height: auto;
+}
+
+.main2__card1 {
+  position: relative;
+}
+.sticker-coffee {
+  bottom: -60px;
+  left: -50px;
+  width: 160px;
+  height: auto;
+}
+
 .main2_wrapper{
     display: flex;
     gap: 20px;
